@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tmpl_generator"
+version = "1.0.0"
+authors = [
+    {name = "Your Name"}
+]
+description = "TMPL Generator - Mask Generation System"
+requires-python = ">=3.7"
+dependencies = [
+    "numpy",
+    "opencv-python",
+    "psutil",
+]
